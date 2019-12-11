@@ -3,7 +3,8 @@ const presets = [
 		"@babel/env",
 		{
 			// useBuiltIns: 'usage',
-			// corejs: 3
+			// corejs: { version: 3, proposals: true },
+			// modules: false
 		},
 	],
 ];
