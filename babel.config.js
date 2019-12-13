@@ -2,7 +2,8 @@ const presets = [
 	[
 		"@babel/env",
 		{
-			// useBuiltIns: 'usage',
+			useBuiltIns: 'usage',
+			corejs: 3,
 			// corejs: { version: 3, proposals: true },
 			// modules: false
 		},
@@ -21,5 +22,5 @@ const plugins = [
 
 module.exports = {
 	presets,
-	plugins
+	// plugins
 };
