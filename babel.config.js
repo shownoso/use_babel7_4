@@ -7,7 +7,7 @@ const presets = [
 			// corejs: { version: 3, proposals: true },
 			modules: false,
 			targets: {
-				"esmodules": false
+				"esmodules": true
 			}
 		},
 	],
